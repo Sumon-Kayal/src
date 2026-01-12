@@ -1,3 +1,18 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kiwibrowser/src.next/kiwi/kiwi_logo_circle.svg" alt="KiwiBrowser"
+	title="KiwiBrowser" width="200" height="200"/>
+ </p>
+<p align="center">
+  <a href="https://github.com/kiwibrowser/src.next/releases">
+  <img src="https://img.shields.io/github/v/release/kiwibrowser/src.next?include_prereleases&label=latest%20release"/>
+</a>
+  <a href="https://github.com/kiwibrowser/src.next/release">
+<img src="https://img.shields.io/github/downloads/kiwibrowser/src.next/total?label=GitHub%20Downloads&color=%6BDDD5"></a>
+<a href="https://github.com/kiwibrowser/src.next/blob/kiwi/LICENSE">
+  <img src="https://img.shields.io/github/license/kiwibrowser/src.next?color=%236BDDD5"/></a>
+
+  </p>
+  
 # Kiwi Browser
 
 ![automatic build of apk](https://github.com/kiwibrowser/src/workflows/automatic%20build%20of%20apk/badge.svg)
@@ -36,6 +51,7 @@ Make sure to properly attribute the code to this repository (don't just replace 
   - [Optimizing binary size](#optimizing-binary-size)
 - [Roadmap](#roadmap)
 - [Additional help](#additional-help)
+- [Current Status](#current-status)
 
 ## Timeline
 
@@ -45,6 +61,7 @@ Make sure to properly attribute the code to this repository (don't just replace 
 
 - 17 April 2020 - Kiwi Browser goes fully open-source.
 
+- 07 April 2025 - Archived
 
 This code is up-to-date and is matching the build on the Play Store.
 
@@ -277,7 +294,9 @@ If you want to optimize of the final APK, you can look at the size of each indiv
 
 ## Precompiled binaries
 
-<a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser"> <img src="https://camo.githubusercontent.com/59c5c810fc8363f8488c3a36fc78f89990d13e99/68747470733a2f2f706c61792e676f6f676c652e636f6d2f696e746c2f656e5f75732f6261646765732f696d616765732f67656e657269632f656e5f62616467655f7765625f67656e657269632e706e67" height="55">
+<a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser">
+  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="55" alt="Get it on Google Play">
+</a>
 
 ## Business model
 
@@ -306,4 +325,34 @@ You can ask for extra help in our Discord server:
 
 Have fun with Kiwi!
 
-Arnaud.
+## Current Status ( April 07 2025 )
+
+Important note: Kiwi Browser is now archived as of April 2025. It is no longer being maintained.
+
+<img src="https://edgemobilegrowth.microsoft.com/extension/kiwi_to_edge.jpeg" height="100" />
+
+To support users who rely on extensions, we've partnered with the Microsoft Edge team to offer a smooth migration path.
+
+Clicking <a href="https://edgemobileapp.microsoft.com/?adjustId=1mfkz3u3_1m6jnsdw">the link</a> will prompt you to install Microsoft Edge, reveal a hidden message in the Edge Extensions Hub, and uNBlock a powerful Manifest V2 extension there.
+
+The extensions code for Kiwi Browser also has been integrated into the development version of Microsoft Edge: [Microsoft Edge Canary](https://play.google.com/store/apps/details?id=com.microsoft.emmx.canary).
+
+To install extensions on Microsoft Edge Canary:
+
+1. Open **Microsoft Edge Canary** and go to **Settings > About Microsoft Edge**.  
+2. Tap the **Edge build number** (e.g., `xx.0.2487.0`) 5 times to enable **Developer Options**.  
+3. In Developer Options, select **Extension install by id**.  
+
+To find the extension ID:  
+- Open the [Microsoft Edge Web Store](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home).  
+- Locate and select the desired extension.  
+- Copy the ID from the URL (e.g., for Bitwarden, the ID is `jbkfoedolllekgbhcbcoahefnbanhhlh` from the URL ending).  
+
+4. Paste the extension ID into the **Extension install by id** field.  
+5. The extension will install.  
+
+If you really need Kiwi Browser, you can download the [latest published version of Kiwi Browser here](https://github.com/kiwibrowser/src.next/releases/tag/14310011181). Do not download Kiwi Browser from any other sources.
+
+While your Kiwi Browser installation will still work for some time, it’s essential to explore alternatives like [Microsoft Edge Canary](https://play.google.com/store/apps/details?id=com.microsoft.emmx.canary), [Vivaldi Browser](https://play.google.com/store/apps/details?id=com.vivaldi.browser) or [Mozilla Firefox](https://play.google.com/store/apps/details?id=org.mozilla.firefox) to stay secure and up-to-date.
+
+-- Arnaud.(Original Dev)
