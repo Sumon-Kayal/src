@@ -294,7 +294,6 @@ If you want to optimize of the final APK, you can look at the size of each indiv
 
 ## Precompiled binaries
 
-<a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser"> 
 <a href="https://play.google.com/store/apps/details?id=com.kiwibrowser.browser">
   <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="55" alt="Get it on Google Play">
 </a>
