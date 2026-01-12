@@ -327,7 +327,7 @@ Have fun with Kiwi!
 
 ## Current Status ( April 07 2025 )
 
-Important note: Kiwi Browser is now archived. It will no longer be maintained after January 2025.
+Important note: Kiwi Browser is now archived as of April 2025. It is no longer being maintained.
 
 <img src="https://edgemobilegrowth.microsoft.com/extension/kiwi_to_edge.jpeg" height="100" />
 
